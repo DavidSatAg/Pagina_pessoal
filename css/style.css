@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+.barra_navegacao {
+  height: 14%;
+  /*background-color: rgb(42, 42, 42);*/
+  background-image: linear-gradient(
+    black,
+    rgb(50, 50, 50),
+    rgba(0, 0, 0, 0.877)
+  );
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 3px 50px 15px rgb(127, 115, 43);
+  position: relative;
+}
+
+.tigre_logo {
+  width: 130px;
+  height: 130px;
+  margin-left: 1%;
+}
+
+ul {
+  display: flex;
+  color: #deaa00;
+  list-style: none;
+  font-size: 35px;
+  margin-right: 10%;
+}
+
+.opcoes_nav {
+  padding: 30px 30px;
+  margin: 20px;
+}
+
+.opcoes_nav:hover {
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+  transition-delay: 70ms;
+  border-radius: 35%;
+  border: 5px;
+  border-style: none solid;
+  border-color: rgb(69, 69, 69);
+  background-image: radial-gradient(
+    rgb(91, 84, 0),
+    rgb(24, 23, 0),
+    rgba(30, 30, 30, 0.877)
+  );
+  color: #e5b61c;
+}
+
+.conteudo {
+  background-image: linear-gradient(
+    to left,
+    black,
+    rgb(89, 88, 88),
+    rgba(123, 123, 123, 0.877),
+    rgb(89, 88, 88),
+    black
+  );
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.imagem_inicio {
+  width: 1200px;
+}
