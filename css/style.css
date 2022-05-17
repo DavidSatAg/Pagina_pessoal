@@ -43,11 +43,11 @@ ul {
   color: #deaa00;
   list-style: none;
   font-size: 35px;
-  margin-right: 10%;
+  margin-right: 3%;
 }
 
 .opcoes_nav {
-  padding: 30px 30px;
+  padding: 30px 20px;
   margin: 20px;
   font-family: "Montserrat", sans-serif;
 }
@@ -74,13 +74,21 @@ ul {
 }
 
 .conteudo {
-  background-image: linear-gradient(
+  /*background-image: linear-gradient(
     to left,
     black,
     #0f4779,
     #225e92,
     #0f4779,
     black
+  );*/
+  background-image: linear-gradient(
+    to left,
+    #000000,
+    #1d2831,
+    #2e373f,
+    #1d2831,
+    #000000
   );
   display: flex;
   flex-direction: column;
@@ -123,6 +131,9 @@ ul {
 
 .avatar {
   width: 40%;
+  border-radius: 35%;
+  box-shadow: 0 0 30px 21px black;
+  border: solid 7px #e5b61c;
 }
 
 main {
@@ -135,12 +146,21 @@ main {
   height: 600px;
   font-size: 30px;
   color: white;
-  box-shadow: 0px 3px 50px 15px #0f4779;
+  /*box-shadow: 0px 3px 50px 15px #0f4779;*/
+  box-shadow: 0px 0px 33px 17px grey;
   position: relative;
-  width: 90%;
+  width: 85%;
   border-radius: 60px 20px;
   padding: 2%;
   font-family: "Montserrat", sans-serif;
+  /*background-image: linear-gradient(
+    to left,
+    #beacac,
+    #1d2831,
+    #71767a,
+    #1d2831,
+    #000000
+  );*/
 }
 
 .bloco_3 {
