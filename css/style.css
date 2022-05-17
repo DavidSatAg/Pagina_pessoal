@@ -8,6 +8,7 @@ html,
 body {
   height: 100vh;
   width: 100%;
+  scroll-behavior: smooth;
 }
 
 .barra_navegacao {
@@ -21,7 +22,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  box-shadow: 0px 3px 50px 15px rgb(127, 115, 43);
+  /*box-shadow: 0px 3px 50px 15px rgb(127, 115, 43);*/
   position: relative;
 }
 
@@ -29,6 +30,12 @@ body {
   width: 130px;
   height: 130px;
   margin-left: 1%;
+}
+
+.nome {
+  font-family: "Beau Rivage", cursive;
+  font-size: 90px;
+  color: #deaa00;
 }
 
 ul {
@@ -42,6 +49,7 @@ ul {
 .opcoes_nav {
   padding: 30px 30px;
   margin: 20px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .opcoes_nav:hover {
@@ -60,17 +68,61 @@ ul {
   color: #e5b61c;
 }
 
+.ancora_nav {
+  color: #e5b61c;
+  text-decoration: none;
+}
+
 .conteudo {
   background-image: linear-gradient(
     to left,
     black,
-    rgb(89, 88, 88),
-    rgba(123, 123, 123, 0.877),
-    rgb(89, 88, 88),
+    #0f4779,
+    #225e92,
+    #0f4779,
     black
   );
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
+}
+
+.bloco_1 {
+  height: 800px;
+  width: 80%;
+  background-image: url(/images/aditya-romansa-m6p4lqWxfy0-unsplash.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.introducao {
+  width: 60%;
+  height: 80%;
+  background-color: rgba(0, 0, 0, 0.618);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  box-shadow: 3px 3px 10px 5px black;
+}
+
+.titulo {
+  color: #beb7a4;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  box-shadow: 3px 3px 10px 5px black;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.636);
+}
+
+.avatar {
+  width: 40%;
 }
 
 main {
@@ -79,6 +131,32 @@ main {
   justify-content: center;
 }
 
-.imagem_inicio {
-  width: 1200px;
+.texto {
+  height: 600px;
+  font-size: 30px;
+  color: white;
+  box-shadow: 0px 3px 50px 15px #0f4779;
+  position: relative;
+  width: 90%;
+  border-radius: 60px 20px;
+  padding: 2%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.bloco_3 {
+  height: 800px;
+  width: 80%;
+  background-image: url(/images/mae-mu-rgRbqFweGF0-unsplash.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bloco_5 {
+  height: 1000px;
+  width: 80%;
+  background-image: url(/images/gaelle-marcel-GaLWM8dX73U-unsplash.jpg);
+  background-size: 45%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
