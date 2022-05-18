@@ -174,18 +174,56 @@ main {
 .bloco_5 {
   height: 1000px;
   width: 80%;
-  background-image: url(/images/gaelle-marcel-GaLWM8dX73U-unsplash.jpg);
-  background-size: 45%;
+  background-image: url(/images/nasa-n463SoeSiVY-unsplash.jpg);
+  background-size: 80%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
 }
 
-.portifolio {
-  height: 200px;
+.texto_portifolio {
+  height: 600px;
+  font-size: 30px;
+  color: white;
+  box-shadow: 0px 0px 33px 17px grey;
+  position: relative;
+  width: 85%;
+  border-radius: 60px 20px;
+  padding: 2%;
+  font-family: "Montserrat", sans-serif;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  justify-content: space-around;
+}
+
+.menu {
+  background-image: linear-gradient(
+    to left,
+    #3e0000,
+    #540000,
+    #750000,
+    #540000,
+    #3e0000
+  );
+  width: 50%;
+  height: 70%;
+  border-radius: 60px 20px;
+  border: solid 5px #e5b61c;
+  box-shadow: 0 0 30px 30px black;
+}
+
+.ancora_portifolio {
+  color: #e5b61c;
+  text-decoration: none;
+  font-size: 60px;
+  font-family: "Arizonia", cursive;
+}
+
+.lista_portifolio {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 0 0 15%;
 }
 
 .bloco_7 {
