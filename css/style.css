@@ -180,3 +180,87 @@ main {
   background-attachment: fixed;
   background-position: center;
 }
+
+.portifolio {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bloco_7 {
+  height: 8000px;
+  width: 80%;
+  background-image: url(/images/calum-lewis-vA1L1jRTM70-unsplash.jpg);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.container_imagens_portifolio {
+  background-color: #ffffff;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 2px 5px #000000;
+}
+
+.titulos_portifolio {
+  background-color: #000000cd;
+  color: #e5b61c;
+  font-size: 90px;
+  width: 40%;
+  align-self: center;
+  text-align: center;
+  padding: 60px 100px;
+  margin: 100px 0;
+  border-radius: 20px 60px;
+  font-family: "Arizonia", cursive;
+  font-weight: lighter;
+}
+
+.maior {
+  width: 60%;
+}
+
+.img_a_esquerda {
+  transform: rotateZ(-9deg);
+}
+
+.img_a_direita {
+  align-self: flex-end;
+  transform: rotateZ(9deg);
+}
+
+.imagens_portifolio {
+  width: 95%;
+}
+
+.img10 {
+  transform: rotateZ(-9deg);
+}
+
+.container_imagens_portifolio2 {
+  background-color: #ffffff;
+  width: 600px;
+  height: 460px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 2px 5px #000000;
+}
+
+.container_imagens_portifolio3 {
+  background-color: #ffffff;
+  width: 600px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 2px 5px #000000;
+}
