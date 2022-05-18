@@ -96,6 +96,14 @@ ul {
   justify-content: center;
 }
 
+.texto_sobre {
+  line-height: 3rem;
+  text-indent: 90px;
+}
+
+h2 {
+  text-align: center;
+}
 .bloco_1 {
   height: 800px;
   width: 80%;
@@ -163,12 +171,50 @@ main {
   );*/
 }
 
+abbr {
+  text-decoration: underline;
+}
 .bloco_3 {
   height: 800px;
   width: 80%;
   background-image: url(/images/mae-mu-rgRbqFweGF0-unsplash.jpg);
   background-size: cover;
   background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bloco_interesses {
+  background-color: #0000006c;
+  border-radius: 60px 20px;
+  width: 70%;
+  padding: 20px;
+  align-self: flex-end;
+}
+
+.outros {
+  width: 50%;
+  align-self: flex-start;
+}
+
+.alguns_interesses {
+  font-size: 60px;
+  color: #beb7a4;
+  font-family: "Montserrat", sans-serif;
+  text-shadow: 2px 2px 5px rgb(255, 255, 255);
+}
+
+.interesses {
+  font-family: "Montserrat", sans-serif;
+  text-shadow: 2px 2px 5px rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+}
+
+.li_interesses {
+  font-size: 45px;
+  padding-top: 20px;
 }
 
 .bloco_5 {
@@ -179,6 +225,9 @@ main {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .texto_portifolio {
