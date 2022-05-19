@@ -104,6 +104,7 @@ ul {
 h2 {
   text-align: center;
 }
+
 .bloco_1 {
   height: 800px;
   width: 80%;
@@ -174,6 +175,7 @@ main {
 abbr {
   text-decoration: underline;
 }
+
 .bloco_3 {
   height: 800px;
   width: 80%;
@@ -215,6 +217,51 @@ abbr {
 .li_interesses {
   font-size: 45px;
   padding-top: 20px;
+}
+
+.blocos_habilidades {
+  width: 70%;
+  height: 150px;
+  margin: 40px;
+  border: solid 6px rgb(185, 182, 182);
+  box-shadow: 0 0 8px 7px rgb(185 182 182);
+}
+
+.hab_titulo {
+  padding: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: bolder;
+  color: #deaa00;
+  text-shadow: 5px 5px #000000;
+}
+
+.bloco_4 {
+  height: 1000px;
+}
+
+.hab_html {
+  background-image: url(/images/html.jpg);
+  background-size: cover;
+  border-radius: 60px 5px 5px 5px;
+}
+
+.hab_matematica {
+  background-image: url(/images/matematica.jpg);
+  background-size: cover;
+}
+
+.hab_css {
+  background-image: url(/images/css.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.hab_fisica {
+  background-image: url(/images/fisica.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px 5px 60px 5px;
 }
 
 .bloco_5 {
@@ -267,6 +314,14 @@ abbr {
   text-decoration: none;
   font-size: 60px;
   font-family: "Arizonia", cursive;
+}
+
+.ancora_portifolio:hover {
+  transition-duration: 200ms;
+  transition-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+  transition-delay: 30ms;
+  font-size: 65px;
+  color: #e5b61c;
 }
 
 .lista_portifolio {
@@ -350,4 +405,64 @@ abbr {
   justify-content: center;
   align-items: center;
   box-shadow: 1px 1px 2px 5px #000000;
+}
+
+.contatos {
+  height: 400px;
+  background-image: linear-gradient(
+    to left,
+    #000000,
+    #1d2831,
+    #2e373f,
+    #1d2831,
+    #000000
+  );
+}
+
+.h2_contatos {
+  color: white;
+  font-size: 60px;
+  padding: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.link_contatos {
+  color: white;
+  font-size: 40px;
+  padding: 20px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.ancora_link {
+  text-decoration: none;
+  color: white;
+}
+
+.ancora_link:hover {
+  font-size: 45px;
+  transition-delay: 100ms;
+  transition-duration: 100ms;
+}
+
+.ancora_botao_subida {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  background-color: rgb(154, 154, 154);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  opacity: 0.8;
+}
+
+.setinha {
+  width: 80%;
+}
+
+.ancora_botao_subida:hover {
+  background-color: rgb(255, 255, 255);
 }
