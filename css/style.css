@@ -110,7 +110,7 @@ h2 {
 .bloco_1 {
   height: 800px;
   width: 80%;
-  background-image: url(/images/aditya-romansa-m6p4lqWxfy0-unsplash.jpg);
+  background-image: url(../images/aditya-romansa-m6p4lqWxfy0-unsplash.jpg);
   background-size: cover;
   background-attachment: fixed;
   display: flex;
@@ -181,7 +181,7 @@ abbr {
 .bloco_3 {
   height: 800px;
   width: 80%;
-  background-image: url(/images/mae-mu-rgRbqFweGF0-unsplash.jpg);
+  background-image: url(../images/mae-mu-rgRbqFweGF0-unsplash.jpg);
   background-size: cover;
   background-attachment: fixed;
   display: flex;
@@ -247,24 +247,24 @@ abbr {
 }
 
 .hab_html {
-  background-image: url(/images/html.jpg);
+  background-image: url(../images/html.jpg);
   background-size: cover;
   border-radius: 60px 5px 5px 5px;
 }
 
 .hab_matematica {
-  background-image: url(/images/matematica.jpg);
+  background-image: url(../images/matematica.jpg);
   background-size: cover;
 }
 
 .hab_css {
-  background-image: url(/images/css.jpg);
+  background-image: url(../images/css.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .hab_fisica {
-  background-image: url(/images/fisica.jpg);
+  background-image: url(../images/fisica.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 5px 5px 60px 5px;
@@ -273,7 +273,7 @@ abbr {
 .bloco_5 {
   height: 1000px;
   width: 80%;
-  background-image: url(/images/nasa-n463SoeSiVY-unsplash.jpg);
+  background-image: url(../images/nasa-n463SoeSiVY-unsplash.jpg);
   background-size: 80%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -339,7 +339,7 @@ abbr {
 .bloco_7 {
   height: 8000px;
   width: 80%;
-  background-image: url(/images/calum-lewis-vA1L1jRTM70-unsplash.jpg);
+  background-image: url(../images/calum-lewis-vA1L1jRTM70-unsplash.jpg);
   background-size: 60%;
   background-repeat: no-repeat;
   background-attachment: fixed;
