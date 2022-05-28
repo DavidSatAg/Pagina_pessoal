@@ -477,7 +477,7 @@ abbr {
   background-color: rgb(255, 255, 255);
 }
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
   .tigre_logo {
     width: 100px;
     height: 100px;
