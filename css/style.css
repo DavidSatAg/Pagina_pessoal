@@ -233,6 +233,10 @@ abbr {
   padding: 2%;
 }
 
+.barra_proficiencia {
+  width: 90%;
+}
+
 .hab_titulo {
   padding: 30px 30px 0;
   font-family: "Montserrat", sans-serif;
@@ -473,9 +477,10 @@ abbr {
   background-color: rgb(255, 255, 255);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
   .tigre_logo {
-    width: 19%;
+    width: 100px;
+    height: 100px;
   }
 
   .nome {
@@ -490,7 +495,7 @@ abbr {
 
   .opcoes_nav {
     margin: 10px;
-    padding: 0px 23px;
+    padding: 0px 1%;
   }
 
   .bloco_1 {
@@ -515,11 +520,19 @@ abbr {
     gap: 60px;
   }
 
+  .texto_sobre {
+    line-height: 2rem;
+  }
+
   ul {
     display: flex;
     color: #deaa00;
     list-style: none;
     font-size: 1rem;
+  }
+
+  .hab_titulo {
+    font-size: 1.7rem;
   }
 
   .imagens_portifolio {
@@ -530,19 +543,27 @@ abbr {
     transform: rotateZ(-9deg);
   }
 
+  .ancora_portifolio {
+    font-size: 3rem;
+  }
+
+  .ancora_portifolio:hover {
+    font-size: 3.1rem;
+  }
+
   .container_imagens_portifolio {
-    width: 300px;
-    height: 300px;
+    width: 240px;
+    height: 240px;
   }
 
   .container_imagens_portifolio2 {
-    width: 400px;
-    height: 300px;
+    width: 320px;
+    height: 240px;
   }
 
   .container_imagens_portifolio3 {
-    width: 400px;
-    height: 230px;
+    width: 320px;
+    height: 210px;
   }
 
   .h2_contatos {
@@ -562,7 +583,7 @@ abbr {
 
   .titulos_portifolio {
     width: auto;
-    font-size: 5rem;
+    font-size: 3rem;
   }
 
   .contatos {
@@ -598,7 +619,7 @@ abbr {
   }
 
   .alguns_interesses {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .interesses {
